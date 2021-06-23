@@ -1,10 +1,9 @@
 import React from "react";
-import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="w-full flex items-center justify-center">
-      <Header />
+    <div className="w-screen h-screen text-center">
+      <h1 className="text-6xl font-extrabold">React + Tailwind + Vite</h1>
     </div>
   );
 }
